@@ -20,7 +20,7 @@ function App() {
 
 
       </div>
-      <Categories />
+      <Categories filterItems={filterItems} />
       <Menu items={menuItems} />
     </section>
   </main>
